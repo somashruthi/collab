@@ -1,0 +1,31 @@
+<style type="text/css">
+body
+{
+    background-image: url("resources/images/friend.jpg");
+    background-repeat: no-repeat;
+	opacity:0.8;
+    background-size: 100%; 
+    padding-bottom: 75px;
+	background-attachment: fixed;
+}
+</style>
+
+<table>
+
+	<thead>
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Image</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr ng-repeat="friend in friends">
+		<td>{{friend.firstname}}</td>
+		<td>{{friend.lastname}}</td>
+		<td><img src="http://localhost:8090/collaborationmiddleware/getimage/{{friend.username}}" alt="Image Not Available" height="50px" width="50px"></td>
+		</tr>
+	</tbody>
+	
+</table>

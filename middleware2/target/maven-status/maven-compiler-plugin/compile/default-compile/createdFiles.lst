@@ -1,0 +1,7 @@
+com\niit\middlewarecontroller\FriendController.class
+com\niit\middlewarecontroller\BlogPostController.class
+com\niit\middlewarecontroller\ProfilePictureController.class
+com\niit\middlewarecontroller\JobController.class
+com\niit\middlewarecontroller\SockController.class
+com\niit\middlewarecontroller\UserController.class
+com\niit\middlewarecontroller\NotificationController.class
